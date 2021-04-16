@@ -87,7 +87,7 @@
 	required_shit_list = "Three dead bodies."
 
 /datum/eldritch_transmutation/final/flesh_final/on_finished_recipe(mob/living/user, list/atoms, loc)
-	var/alert_ = alert(user,"Do you want to ascend as the Lord of the Night or empower yourself and summon a Terror of the Night?","...","Yes","No")
+	var/alert_ = alert(user,"Do you want to ascend as the Lord of the Night or empower yourself and summon a Terror of the Night?","...","Become a lord of the Night","Summon a Terror of the Night")
 	user.SetImmobilized(10 HOURS) // no way someone will stand 10 hours in a spot, just so he can move while the alert is still showing.
 	switch(alert_)
 		if("No")
