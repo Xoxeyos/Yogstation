@@ -95,7 +95,7 @@
 		ET.on_life(owner.current)
 
 /datum/antagonist/heretic/proc/forge_primary_objectives()
-	var/list/assasination = list()
+	var/list/assassination = list()
 	var/list/protection = list()
 	for(var/i in 1 to 2)
 		var/pck = pick("assasinate","protect")
