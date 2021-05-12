@@ -185,7 +185,7 @@ GLOBAL_LIST_EMPTY(objectives)
 				H.equip_in_one_of_slots(O, slots)
 
 /datum/objective/assassinate
-	name = "assasinate"
+	name = "assassinate"
 	var/target_role_type=FALSE
 	martyr_compatible = 1
 
@@ -1104,7 +1104,7 @@ GLOBAL_LIST_EMPTY(possible_items_special)
   * Kill Pet
   */
 /datum/objective/minor/pet
-	name = "assasinate-pet"
+	name = "assassinate-pet"
 	explanation_text = "Assassinate the HoP's assistant, Ian."
 	/// Pet
 	var/mob/living/pet
